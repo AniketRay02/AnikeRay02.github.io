@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Aniket Ray</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+		h1 {
+			margin: 0;
+		}
+		nav {
+			background-color: #eee;
+			display: flex;
+			justify-content: center;
+			padding: 10px 0;
+		}
+		nav a {
+			color: #333;
+			padding: 0 10px;
+			text-decoration: none;
+		}
+		nav a:hover {
+			color: #333;
+			text-decoration: underline;
+		}
+		.container {
+			margin: 20px;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Aniket Ray</h1>
+	</header>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Portfolio</a>
+		<a href="#">Contact</a>
+	</nav>
+	<div class="container">
+		<h2>Welcome to my portfolio website!</h2>
+		<p>Here's some information about me and my work.</p>
+		<button id="alert-button">Click me!</button>
+	</div>
+	<footer>
+		<p>&copy; 2023 Aniket Ray</p>
+	</footer>
+	<script>
+		document.getElementById('alert-button').addEventListener('click', function() {
+			alert('Welcome!');
+		});
+	</script>
+</body>
+</html>
